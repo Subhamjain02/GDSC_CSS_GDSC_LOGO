@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    \
+    <style>
+         
+      .main {
+        position: absolute;
+        top: 35vh;
+        left: 38vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   
+      }
+      .logo {
+        display: flex;
+        width: 370px;
+        justify-content:space-evenly;
+      }
+      .up {
+        width: 150px;
+        height: 50px;
+        background-color: #ea3f33;
+        border-radius: 35px;
+        transform: rotate(-30deg);
+      }
+      .down {
+        width: 150px;
+        height: 50px;
+        background-color: #4287f6;
+        border-radius: 35px;
+        transform: rotate(30deg);
+      }
+
+      .right {
+        transform: rotateY(180deg);
+      }
+      .right .up {
+        background-color: #109d59;
+      }
+      .right .down {
+        background-color: #f8bc04;
+      }
+      .red{
+        color: rgb(222, 0, 0);
+      }
+      .blue{
+        color: #4287f6;
+      }
+      .cyan{
+        color: rgb(0, 189, 189);
+      }
+        .yellow{
+            color: #f8bc04;
+        }
+      .dblue{
+        color: rgb(36, 98, 169);
+      }
+      h2{
+        margin-top: 40px;
+        font-weight: 400;
+      }
+    
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="logo">
+        <div class="left">
+          <div class="up"></div>
+          <div class="down"></div>
+        </div>
+        <div class="right">
+          <div class="up"></div>
+          <div class="down"></div>
+        </div>
+      </div>
+      <h2>
+        <span class="red">G</span><span class="blue">D</span><span class="cyan">S</span><span class="yellow">C </span><span class="red">C</span><span class="blue">V</span><span class="cyan">R</span><span class="yellow">G</span><span class="dblue">U</span>
+      </h2>
+    </div>
+  </body>
+</html>
